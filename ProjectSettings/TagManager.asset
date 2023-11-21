@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CanBePickedUp
+  - Blue
+  - Red
+  - BlueRock
+  - Purple
   layers:
   - Default
   - TransparentFX
@@ -12,8 +17,8 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
+  - player
+  - Consumables
   - 
   - 
   - 

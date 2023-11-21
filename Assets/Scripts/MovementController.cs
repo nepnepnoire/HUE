@@ -62,7 +62,6 @@ public class MovementController : MonoBehaviour
 
         //左右移动
         Vector3 vt = new Vector3(h, 0, 0).normalized;//vt为俩个轴系合成的方向向量，normalized单位化
-        Debug.Log(v);
         //空中左右移动，为地面jumpspeedVertiacal倍
         if (h != 0 && Iscanjump == false)
         {
